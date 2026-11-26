@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Labogon — Barangay Labogon, Mandaue City</title>
+    <meta
+      name="description"
+      content="Web-Based Emergency Information and Assistance System for Barangay Labogon, Mandaue City, Cebu."
+    />
+    <meta
+      property="og:title"
+      content="One Labogon — Barangay Labogon, Mandaue City"
+    />
+    <meta
+      property="og:description"
+      content="Web-Based Emergency Information and Assistance System for Barangay Labogon, Mandaue City, Cebu."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#c2410c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="One Labogon" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27%23dc2626%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z%27/%3E%3Cpath d=%27M12 8v4%27/%3E%3Cpath d=%27M12 16h.01%27/%3E%3C/svg%3E" />
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem("theme");
+          if (savedTheme === "dark" || savedTheme === "light") {
+            document.documentElement.setAttribute("data-theme", savedTheme);
+          }
+          var savedSize = localStorage.getItem("textSize");
+          if (savedSize === "normal" || savedSize === "large" || savedSize === "xlarge") {
+            document.documentElement.setAttribute("data-text-size", savedSize);
+          }
+          var savedContrast = localStorage.getItem("contrast");
+          if (savedContrast === "high" || savedContrast === "normal") {
+            document.documentElement.setAttribute("data-contrast", savedContrast);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body id="top">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

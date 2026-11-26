@@ -1,0 +1,6 @@
+{
+  "name": "One Labogon",
+  "description": "Web-Based Emergency Information and Assistance System for Barangay Labogon, Mandaue City, Cebu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
